@@ -1,0 +1,19 @@
+{
+  "name": "concrete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tests_contract": "NODE_ENV=http://localhost:3000 mocha test/nodetest.js",
+    "swagger_io": "NODE_ENV=https://petstore.swagger.io mocha test/nodetest.js"
+    
+  },
+  "author": "Tiago Martins",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "supertest": "^4.0.2"
+  }
+}
